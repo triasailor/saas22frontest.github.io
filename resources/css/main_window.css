@@ -103,7 +103,7 @@ hr.solid {
     align-items: flex-start;
     border: 2px solid #000;
     background-color: #f5f5f5;
-    overflow: scroll;
+    min-width: 800px;
 }
 
 .right_col {

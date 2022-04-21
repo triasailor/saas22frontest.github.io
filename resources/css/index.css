@@ -1,0 +1,58 @@
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+ font-size: 50px;
+ 
+}
+
+.nav {
+    display: inline-block;
+    font-size: 18px;
+    text-decoration: none;
+    margin-inline-start: 150px;
+    margin: 0 auto;
+}
+
+.plans {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.landingpic {
+    margin: 10px;  
+}
+
+.Signin_but {
+    margin-top: 20px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: #68DAEC;
+    border: 2px solid #68DAEC;
+    border-radius: 8px;
+    font-size: 18px;
+    box-shadow: 0 2px 2px gray;
+
+}
+
+.Signin_but:hover {
+    background-color: #0698AF;
+
+}
+
+.Signin_but:active {
+    background-color: #0698AF;
+    margin-top: 2px;
+    margin-bottom: -2px;
+    box-shadow: none;
+}
+hr.solid {
+    border-top: 3px solid #bbb;
+    width: 700px;
+
+    margin-top: 30px;
+}
+
